@@ -192,30 +192,31 @@ def calculate_distance(upp,low):
 # In[21]:
 
 
-upper_lip = [results.face_landmarks.landmark[13].x,results.face_landmarks.landmark[13].y]
-lower_lip = [results.face_landmarks.landmark[14].x,results.face_landmarks.landmark[14].y]
+#upper_lip = [results.face_landmarks.landmark[13].x,results.face_landmarks.landmark[13].y]
+#lower_lip = [results.face_landmarks.landmark[14].x,results.face_landmarks.landmark[14].y]
 
 
 # In[23]:
 
 
-calculate_distance(upper_lip,lower_lip)
+#calculate_distance(upper_lip,lower_lip)
 
 
 # In[13]:
 
 
-shoulder_left = [landmarks[mp_holistic.PoseLandmark.LEFT_SHOULDER.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_SHOULDER.value].y]
-elbow_left = [landmarks[mp_holistic.PoseLandmark.LEFT_ELBOW.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_ELBOW.value].y]
-hip_left = [landmarks[mp_holistic.PoseLandmark.LEFT_HIP.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_HIP.value].y]
+
+#shoulder_left = [landmarks[mp_holistic.PoseLandmark.LEFT_SHOULDER.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_SHOULDER.value].y]
+#elbow_left = [landmarks[mp_holistic.PoseLandmark.LEFT_ELBOW.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_ELBOW.value].y]
+#hip_left = [landmarks[mp_holistic.PoseLandmark.LEFT_HIP.value].x,landmarks[mp_holistic.PoseLandmark.LEFT_HIP.value].y]
 
 
 # In[38]:
 
 
-shoulder_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_SHOULDER.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_SHOULDER.value].y]
-elbow_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_ELBOW.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_ELBOW.value].y]
-hip_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].y]
+#shoulder_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_SHOULDER.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_SHOULDER.value].y]
+#elbow_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_ELBOW.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_ELBOW.value].y]
+#hip_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].x,landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].y]
 
 
 # In[40]:
@@ -233,13 +234,13 @@ hip_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].x,landmarks[mp_
 # In[43]:
 
 
-calculate_angle(shoulder_left, elbow_left, hip_left)
+#calculate_angle(shoulder_left, elbow_left, hip_left)
 
 
 # In[44]:
 
 
-calculate_angle(shoulder_right, elbow_right, hip_right)
+#calculate_angle(shoulder_right, elbow_right, hip_right)
 
 
 # In[16]:
