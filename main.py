@@ -6,11 +6,16 @@
 
 import cv2
 import mediapipe as mp
+import streamlit as st
 import numpy as np
 mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 
 
+st.write("""
+# Gym Companion
+Having trouble working out! This will help you reach your summer bod !!
+""")
 # In[30]:
 
 
