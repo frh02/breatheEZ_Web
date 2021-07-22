@@ -61,19 +61,19 @@ cap.release()
 # In[6]:
 
 
-mp_holistic.POSE_CONNECTIONS
+#mp_holistic.POSE_CONNECTIONS
 
 
 # In[7]:
 
 
-mp_holistic.HAND_CONNECTIONS
+#mp_holistic.HAND_CONNECTIONS
 
 
 # In[46]:
 
 
-mp_holistic.FACE_CONNECTIONS
+#mp_holistic.FACE_CONNECTIONS
 
 
 # In[13]:
@@ -152,7 +152,7 @@ cap.release()
 # In[25]:
 
 
-len(landmarks)
+#len(landmarks)
 
 
 # In[27]:
@@ -221,13 +221,13 @@ hip_right = [landmarks[mp_holistic.PoseLandmark.RIGHT_HIP.value].x,landmarks[mp_
 # In[40]:
 
 
-shoulder_left, elbow_left, hip_left
+#shoulder_left, elbow_left, hip_left
 
 
 # In[41]:
 
 
-shoulder_right, elbow_right, hip_right
+#shoulder_right, elbow_right, hip_right
 
 
 # In[43]:
